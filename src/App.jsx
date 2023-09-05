@@ -36,12 +36,12 @@ function Image() {
   return (
     <div className=''>
       <img
-        src='/src/assets/illustration-sign-up-mobile.svg'
+        src='/assets/illustration-sign-up-mobile.svg'
         alt='Illustration'
         className='w-full md:hidden'
       />
       <img
-        src='/src/assets/illustration-sign-up-desktop.svg'
+        src='/assets/illustration-sign-up-desktop.svg'
         alt='Illustration'
         className='md:block hidden w-full'
       />
@@ -56,15 +56,15 @@ function Content({ showSuccess }) {
       <p>Join 60,000+ product managers receiving monthly updates on:</p>
 
       <div className='flex gap-3'>
-        <img src='/src/assets/icon-list.svg' alt='icon' />
+        <img src='/assets/icon-list.svg' alt='icon' />
         <span>Product discovery and building what matters</span>
       </div>
       <div className='flex gap-3'>
-        <img src='/src/assets/icon-list.svg' alt='icon' />
+        <img src='/assets/icon-list.svg' alt='icon' />
         <span>Measuring to ensure updates are a success</span>
       </div>
       <div className='flex gap-3'>
-        <img src='/src/assets/icon-list.svg' alt='icon' />
+        <img src='/assets/icon-list.svg' alt='icon' />
         <span>And much more!</span>
       </div>
       <SubscribeForm showSuccess={showSuccess} />
@@ -127,7 +127,7 @@ function SuccessMessage({ email,onDismiss }) {
   return (
     <>
       <div className='space-y-6 grid place-content-center p-8 h-screen md:h-auto '>
-        <img src='../src/assets/icon-success.svg' alt='' />
+        <img src='/assets/icon-success.svg' alt='' />
         <h1 className='text-3xl font-bold'>Thanks for subscribing!</h1>
         <p className='mb-12'>
           A confirmation email has been sent to{' '}
